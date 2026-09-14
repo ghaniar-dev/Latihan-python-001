@@ -9,7 +9,7 @@ pekerjaan = "mahasiswa"
 sudah_menikah = False
 no_hp = "081234567890"
 hobi = ["membaca", "basket", "bermain game", "berlari"]
-makanan_favorit = ("nasi goreng", "mie ayam", "sate", "bakso")
+makanan_favorit = ("nasi goreng", "mie ayam", "sate", "sushi")
 
 #menampilkan biodata
 print("===============================================")
