@@ -1,0 +1,1 @@
+pilihan_aritmatika = input("Masukan Pilihan Anda\n")
