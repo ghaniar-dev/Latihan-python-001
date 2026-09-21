@@ -1,8 +1,12 @@
 
 while True :
-    pilihan_aritmatika = input("1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4.Pembagian\n5. Modulus\nMasukan Pilihan Anda: ")
     garis = "=" * 20
 
+    print(garis)
+    print("kalkulator Sederhana")
+    print(garis)
+    pilihan_aritmatika = input("1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4.Pembagian\n5. Modulus\nMasukan Pilihan Anda: ")
+    
 
 
     if pilihan_aritmatika == "1" :
@@ -18,6 +22,7 @@ while True :
         
         ulang =input("Apakah Anda Mau Menghitung lagi (Y/T) :")
         print("\n")
+        print(garis)
         if ulang.lower() != "y":
             print("Program Selesai!!!")
             break
