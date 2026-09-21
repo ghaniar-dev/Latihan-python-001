@@ -30,6 +30,9 @@ if status_perkawinan_input == "y":
     status_perkawinan = True
 elif status_perkawinan_input == "t":
     status_perkawinan = False
+else:
+    print("Input status perkawinan tidak valid. Harap masukkan 'Y' untuk Ya atau 'T' untuk Tidak.")
+    status_perkawinan = None  # Menetapkan None jika input tidak valid
 
 #menampilkan biodata yang telah diinputkan
 
